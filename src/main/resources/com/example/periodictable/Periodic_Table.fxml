@@ -59,7 +59,7 @@
                      </rowConstraints>
                      <children>
                         <!--COLUMNA 1-->
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1" onMouseClicked="openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1" >
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="1" />

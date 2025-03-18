@@ -33,13 +33,9 @@ public class PeriodicTable extends Application {
             showMessageDialog(null, "No se encontraron elementos");
         }
 
-        Parent root = FXMLLoader.load(getClass().getResource("Element_View.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("Periodic_Table.fxml"));
 
-        EventObject event;
-        stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
-        stage.setScene(scene);
-        stage.show();
 
        //stage.setFullScreen(true);
        // stage.setResizable(false);
@@ -59,6 +55,6 @@ public class PeriodicTable extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 }
