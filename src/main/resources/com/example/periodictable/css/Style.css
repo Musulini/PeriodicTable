@@ -1,0 +1,118 @@
+.root {
+    -fx-primary-color: #111016;
+    -fx-secondary-color: #201f24;
+    -fx-font-size: 14px;
+    -fx-font-family: "Roboto Mono";
+}
+
+.test {
+    -fx-font-family: -fx-font-family;
+    -fx-text-fill: white;
+}
+
+.window {
+    -fx-background-color: -fx-primary-color;
+}
+
+.title_bar {
+    -fx-background-radius: 10px;
+    -fx-background-color: linear-gradient(to top right, #080d0e, #324043);
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-radius: 10px;
+}
+
+.title{
+    -fx-text-fill: white;
+    -fx-font-family: -fx-font-family;
+    -fx-font-size: 30px;
+}
+
+.icon_app {
+    -fx-background-image: url("../icons/App_Icon.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.principal_container {
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-border-radius: 10px;
+    -fx-background-color: -fx-secondary-color;
+    -fx-background-radius: 10px;
+}
+
+.hbox_table{
+    -fx-background-color: linear-gradient(to top right, #080d0e, #324043);
+    -fx-background-radius: 10px;
+
+}
+
+.c1{
+    -fx-padding: 2px;
+}
+
+.element {
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: #505455;
+    -fx-background-color: transparent;
+}
+
+.element:hover {
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: white;
+    -fx-background-color: #080d0e;
+}
+
+.atomic_number {
+    -fx-font-size: 10px;
+    -fx-text-fill: #505455;
+}
+
+.symbol {
+    -fx-font-size: 25px;
+    -fx-text-fill: white;
+    -fx-font-family: -fx-font-family;
+}
+
+.name{
+    -fx-text-fill: #505455;
+    -fx-font-size: 8px;
+}
+
+.atomic_mass {
+    -fx-text-fill: #505455;
+    -fx-font-size: 8px;
+}
+
+.triangle_pane {
+
+    -fx-background-image: url("../images/Triangle.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.period {
+    -fx-text-fill: red;
+    -fx-background-color: transparent;
+}
+
+grid_period {
+    -fx-background-color: transparent;
+}
+
+.vbox_period {
+    -fx-background-color: transparent;
+}
+
+.group {
+    -fx-font-size: 15px;
+    -fx-text-fill: white;
+}
+

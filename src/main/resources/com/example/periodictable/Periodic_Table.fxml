@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="window" alignment="CENTER" maxHeight="920.0" maxWidth="1516.0" minHeight="920.0" minWidth="1516.0" prefHeight="920.0" prefWidth="1516.0" spacing="20.0" styleClass="window" stylesheets="@css/Style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.periodictable.controller.PeriodicTableController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Pane id="title_bar" maxHeight="80.0" maxWidth="1496.0" minHeight="38.0" minWidth="1496.0" prefHeight="61.0" prefWidth="1496.0" styleClass="title_bar" stylesheets="@css/Style.css">
+         <children>
+            <Label id="title" alignment="CENTER" contentDisplay="CENTER" prefHeight="61.0" prefWidth="1497.0" styleClass="title" stylesheets="@css/Style.css" text="Tabla Periódica De Los Elementos" />
+         </children></Pane>
+      <Pane id="principal_container" maxHeight="820.0" maxWidth="1496.0" minHeight="800.0" minWidth="1496.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="800.0" prefWidth="1496.0" styleClass="principal_container" stylesheets="@css/Style.css">
+         <children>
+            <VBox id="hbox_table" alignment="CENTER" layoutX="3.0" layoutY="5.0" maxHeight="829.0" maxWidth="1496.0" minHeight="577.72" minWidth="1309.0" prefHeight="794.0" prefWidth="1490.0" styleClass="hbox_table" stylesheets="@css/Style.css">
+               <children>
+                  <GridPane id="c1" alignment="CENTER" hgap="5.0" maxHeight="799.0" maxWidth="1363.0" minHeight="688.82" minWidth="1252.4" prefHeight="748.0" prefWidth="1363.0" styleClass="c1" stylesheets="@css/Style.css" vgap="5.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="62.62" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.62" minWidth="62.62" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="62.62" minHeight="62.62" prefHeight="62.62" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <!--COLUMNA 1-->
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1" onMouseClicked="openElementView">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="1" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="H" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Hidrógeno" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="1.008" />
+                           </children>
+                        </Pane>
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="3" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Li" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Litio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="6.94" />
+                           </children>
+                        </Pane>
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="11" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Na" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Sodio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="22.990" />
+                           </children>
+                        </Pane>
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="19" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="K" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Potasio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="39.098" />
+                           </children>
+                        </Pane>
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="37" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Rb" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Rubidio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="85.468" />
+                           </children>
+                        </Pane>
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="55" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Cs" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Cesio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="132.905" />
+                           </children>
+                        </Pane>
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="87" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Fr" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Francio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="223" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="4" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Be" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Berilio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="9.0122" />
+                           </children>
+                        </Pane>
+                        <!--COLUMNA 2-->
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="12" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Mg" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Magnesio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="24.305" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="20" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ca" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Calcio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="40.078" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="38" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Sr" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Estroncio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="87.62" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="56" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ba" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Bario" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="137.327" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="88" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ra" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Radio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="226" />
+                           </children>
+                        </Pane>
+                        <!--COLUMNA 3-->
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="21" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Sc" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Escandio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="44.956" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="39" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Y" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Itrio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="88.906" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="57" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="La" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Lantano" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="138.905" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="3" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="89" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ac" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Actinio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="227" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="22" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ti" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Titanio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="47.867" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="40" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Zr" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Zirconio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="91.224" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="72" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Hf" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Hafnio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="178.49" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="104" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Rf" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Rutherfordio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="104" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="58" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ce" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Cerio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="140.116" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="90" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Th" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Torio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="232.04" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="23" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="V" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Vanadio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="50.942" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="41" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Nb" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Niobio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="92.906" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="73" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ta" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Tántalo" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="180.947" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="105" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Db" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Dubnio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="270" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="59" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Pr" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Praseodimio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="140.907" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="91" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Pa" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Protactinio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="231.04" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="24" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Cr" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Cromo" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="52.00" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="42" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Mo" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Molibdeno" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="95.95" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="74" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="W" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Wolframio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="183.84" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="106" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Sg" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="39.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Seaborgio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="46.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="271" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="60" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Nd" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Neodimio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="144.242" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="92" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="U" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Urano" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="238.03" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="25" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Mn" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Manganeso" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="54.938" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="43" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Tc" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Tecnecio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="98" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="75" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Re" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Renio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="186.21" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="107" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Bh" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Bohrio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="270" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="61" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Pm" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Prometio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="145" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="93" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Np" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Neptunio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="237" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="26" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Fe" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Hierro" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="Hierro" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="44" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ru" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Rutenio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="101.07" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="76" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Os" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Osmio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="190.23" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="108" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Hs" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Hassio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="277" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="62" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Sm" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Samario" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="150.36" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="94" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Pu" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Plutonio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="244" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="27" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Co" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Cobalto" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="58.933" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="45" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Rh" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Rodio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="102.91" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="77" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ir" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Iridio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="192.22" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="109" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Mt" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Meitnerio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="276" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="63" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Eu" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Europio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="151.98" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="95" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Am" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Americio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="243" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="28" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ni" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Níquel" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="58.693" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="46" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Pd" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Paladio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="106.42" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="78" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Pt" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Platino" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="195.084" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="110" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ds" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Darmstadtio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="281" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="64" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Gd" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Gadolinio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="157.25" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="96" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Cm" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Curio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="247" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="29" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Cu" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Cobre" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="63.546" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="47" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ag" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Plata" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="107.868" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="79" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Au" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Oro" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="196.97" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="111" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Rg" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Roentgenio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="280" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="65" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Tb" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Terbio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="158.93" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="97" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Bk" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Berkelio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="247" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="30" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Zn" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Cinc" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="65.38" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="48" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Cd" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Cadmio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="112.41" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="80" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Hg" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Mercurio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="200.59" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="112" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Cn" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Copernicio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="285" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="66" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Dy" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Disprosio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="162.50" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="98" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Cf" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Californio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="251" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="2">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="5" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="B" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Boro" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="10.81" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="3">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="13" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Al" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Aluminio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="26.982" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="31" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ga" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Galio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="69.723" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="49" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="In" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Indio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="114.818" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="81" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Tl" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Talio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="204.38" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="113" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Nh" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Nihonio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="284" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="67" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ho" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Holmio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="164.93" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="99" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Es" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Einstenio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="252" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="2">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="6" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="C" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Carbono" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="12.011" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="3">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="14" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Si" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Silicio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="28.085" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="32" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ge" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Germanio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="72.63" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="50" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Sn" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Estaño" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="118.71" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="82" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Pb" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Plomo" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="207.2" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="114" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Fl" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Flerovio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="289" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="68" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Er" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Erbio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="167.26" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="100" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Fm" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Fermio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="257" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="2">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="7" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="N" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Nitrógeno" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="14.007" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="3">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="15" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="P" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Fósforo" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="30.974" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="33" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="As" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Arsénico" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="74.922" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="51" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Sb" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Antimonio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="121.76" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="83" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Bi" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Bismuto" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="208.98" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="115" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Mc" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Moscovio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="288" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="69" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Tm" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Tulio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="168.93" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="101" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Md" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Mendelevio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="258" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="2">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="8" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="O" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Oxígeno" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="15.999" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="3">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="16" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="S" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Azufre" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="32.06" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="34" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Se" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Selenio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="78.971" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="52" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Te" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Telurio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="127.60" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="84" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Po" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Polonio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="209, 16" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="116" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Lv" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Livermorio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="293" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="70" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Yb" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Iterbio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="173.04" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="102" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="No" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Nobelio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="259" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="2">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="9" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="F" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Flúor" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="18.998" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="3">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="17" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Cl" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Cloro" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="35.45" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="35" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Br" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Bromo" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="79.904" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="53" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="I" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Yodo" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="126.904" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="85" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="At" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Astato" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="210" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="117" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ts" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Tennessino" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="294" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="9">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="71" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Lu" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Lutecio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="175.00" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="10">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="103" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Lr" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Lawrencio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="262" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="1">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="2" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="He" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Helio" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="4.0026" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="2">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="10" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ne" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Neón" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="20.180" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="3">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="18" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Ar" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Argón" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="39.948" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="4">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="36" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Kr" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Kriptón" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="83.798" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="5">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="54" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Xe" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Xenón" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="131.293" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="6">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="86" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Rn" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Radón" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="222" />
+                           </children>
+                        </Pane>
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="7">
+                           <children>
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="118" />
+                              <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="Og" />
+                              <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Oganesón" />
+                              <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="294" />
+                           </children>
+                        </Pane>
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="1" GridPane.columnIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="2" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="3" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="4" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="5" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="6" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="7" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="8" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="9" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="10" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="11" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="12" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="13" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="14" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="15" GridPane.columnIndex="15" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="16" GridPane.columnIndex="16" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="17" GridPane.columnIndex="17" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="18" GridPane.columnIndex="18" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="1" GridPane.rowIndex="1" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="2" GridPane.rowIndex="2" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="3" GridPane.rowIndex="3" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="4" GridPane.rowIndex="4" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="5" GridPane.rowIndex="5" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="6" GridPane.rowIndex="6" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="group" stylesheets="@css/Style.css" text="7" GridPane.rowIndex="7" />
+                        
+                     </children>
+                  </GridPane>
+               </children>
+            </VBox>
+         </children></Pane>
+   </children>
+</VBox>
