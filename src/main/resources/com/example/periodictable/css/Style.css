@@ -1,6 +1,8 @@
 .root {
     -fx-primary-color: #000000;
-    -fx-secondary-color: #201f24;
+    -fx-font-color: #ffffff;
+    -fx-no_metal: #329ffe;
+    -fx-no_metal_blur: rgba(50, 159, 254, 0.21);
     -fx-font-size: 14px;
     -fx-font-family: "Roboto Mono";
 }
@@ -55,78 +57,50 @@
     -fx-padding: 2px;
 }
 
-.element {
+.element_no_metal {
     -fx-border-width: 1px;
     -fx-border-style: solid;
-    -fx-border-color: #505455;
+    -fx-border-color: -fx-no_metal;
     -fx-background-color: transparent;
+
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.46), 10, 0.5, 0, 0);
 }
 
-.element:hover {
-    -fx-border-width: 1px;
-    -fx-border-style: solid;
-    -fx-border-color: white;
-    -fx-background-color: #080d0e;
+.element_no_metal:hover {
+    -fx-background-color: -fx-no_metal_blur;
 }
 
-.atomic_number {
-    -fx-font-size: 10px;
-    -fx-text-fill: #505455;
-}
+.no_metal {
 
-.symbol {
-    -fx-font-size: 25px;
-    -fx-text-fill: white;
-    -fx-font-family: -fx-font-family;
-}
-
-.name{
-    -fx-text-fill: #505455;
-    -fx-font-size: 8px;
-}
-
-.atomic_mass {
-    -fx-text-fill: #505455;
-    -fx-font-size: 8px;
-}
-
-.triangle_pane {
-
-    -fx-background-image: url("../images/Triangle.png");
+    -fx-background-image: url("../color_group/noMetal.png");
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
-.period {
-    -fx-text-fill: red;
-    -fx-background-color: transparent;
+.atomic_number {
+    -fx-font-size: 10px;
+    -fx-text-fill: -fx-font-color;
 }
 
-grid_period {
-    -fx-background-color: transparent;
+.symbol {
+    -fx-font-size: 25px;
+    -fx-text-fill: -fx-font-color;
+    -fx-font-family: -fx-font-family;
 }
 
-.vbox_period {
-    -fx-background-color: transparent;
+.name{
+    -fx-text-fill: -fx-font-color;
+    -fx-font-size: 8px;
+}
+
+.atomic_mass {
+    -fx-text-fill: -fx-font-color;
+    -fx-font-size: 8px;
 }
 
 .group {
     -fx-font-size: 12px;
     -fx-text-fill: white;
-}
-
-.uno {
-    -fx-background-image: url("../images/1.png");
-    -fx-background-size: cover;
-    -fx-background-repeat: no-repeat;
-    -fx-background-position: center;
-}
-
-.dos {
-    -fx-background-image: url("../images/2.png");
-    -fx-background-size: cover;
-    -fx-background-repeat: no-repeat;
-    -fx-background-position: center;
 }
 

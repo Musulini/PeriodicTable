@@ -59,16 +59,16 @@
                      </rowConstraints>
                      <children>
                         <!--COLUMNA 1-->
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="1">
                            <children>
-                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
+                              <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="no_metal" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="1" />
                               <Label id="symbol" alignment="CENTER" contentDisplay="CENTER" layoutY="1.0" maxHeight="62.62" maxWidth="63.0" minHeight="52.0" minWidth="62.62" prefHeight="52.0" prefWidth="63.0" styleClass="symbol" stylesheets="@css/Style.css" text="H" />
                               <Label id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="36.0" prefHeight="13.0" prefWidth="64.0" styleClass="name" stylesheets="@css/Style.css" text="Hidrógeno" />
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="1.008" />
                            </children>
                         </Pane>
-                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="2" onMouseClicked="#openElementView">
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="2">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="3" />
@@ -77,7 +77,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="6.94" />
                            </children>
                         </Pane>
-                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="3" onMouseClicked="#openElementView">
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="3">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="11" />
@@ -86,7 +86,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="22.990" />
                            </children>
                         </Pane>
-                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="19" />
@@ -95,7 +95,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="39.098" />
                            </children>
                         </Pane>
-                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="37" />
@@ -104,7 +104,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="85.468" />
                            </children>
                         </Pane>
-                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="55" />
@@ -113,7 +113,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="132.905" />
                            </children>
                         </Pane>
-                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="3" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="1" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="87" />
@@ -122,7 +122,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="223" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="2" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="2">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="4" />
@@ -132,7 +132,7 @@
                            </children>
                         </Pane>
                         <!--COLUMNA 2-->
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="3" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="3">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="12" />
@@ -141,7 +141,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="24.305" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="20" />
@@ -150,7 +150,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="40.078" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="38" />
@@ -159,7 +159,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="87.62" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="56" />
@@ -168,7 +168,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="137.327" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="2" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="88" />
@@ -178,7 +178,7 @@
                            </children>
                         </Pane>
                         <!--COLUMNA 3-->
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="3" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="3" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="21" />
@@ -187,7 +187,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="44.956" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="3" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="3" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="39" />
@@ -196,7 +196,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="88.906" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="57" />
@@ -205,7 +205,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="138.905" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="89" />
@@ -214,7 +214,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="227" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="22" />
@@ -223,7 +223,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="47.867" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="40" />
@@ -232,7 +232,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="91.224" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="72" />
@@ -241,7 +241,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="178.49" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="4" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="104" />
@@ -250,7 +250,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="104" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="58" />
@@ -259,7 +259,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="140.116" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="90" />
@@ -268,7 +268,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="232.04" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="23" />
@@ -277,7 +277,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="50.942" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="41" />
@@ -286,7 +286,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="92.906" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="73" />
@@ -295,7 +295,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="180.947" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="5" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="105" />
@@ -304,7 +304,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="270" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="59" />
@@ -313,7 +313,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="140.907" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="91" />
@@ -322,7 +322,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="231.04" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="24" />
@@ -331,7 +331,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="52.00" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="42" />
@@ -340,7 +340,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="95.95" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="74" />
@@ -349,7 +349,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="183.84" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="6" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="106" />
@@ -358,7 +358,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="46.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="271" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="60" />
@@ -367,7 +367,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="144.242" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="92" />
@@ -376,7 +376,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="238.03" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="25" />
@@ -385,7 +385,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="54.938" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="43" />
@@ -394,7 +394,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="98" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="75" />
@@ -403,7 +403,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="186.21" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="7" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="107" />
@@ -412,7 +412,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="270" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="61" />
@@ -421,7 +421,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="145" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="93" />
@@ -430,7 +430,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="237" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="26" />
@@ -439,7 +439,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="Hierro" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="44" />
@@ -448,7 +448,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="101.07" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="76" />
@@ -457,7 +457,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="190.23" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="108" />
@@ -466,7 +466,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="277" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="62" />
@@ -475,7 +475,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="150.36" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="94" />
@@ -484,7 +484,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="244" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="27" />
@@ -493,7 +493,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="58.933" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="45" />
@@ -502,7 +502,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="102.91" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="77" />
@@ -511,7 +511,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="192.22" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="9" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="109" />
@@ -520,7 +520,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="276" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="63" />
@@ -529,7 +529,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="151.98" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="95" />
@@ -538,7 +538,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="243" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="28" />
@@ -547,7 +547,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="58.693" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="46" />
@@ -556,7 +556,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="106.42" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="78" />
@@ -565,7 +565,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="195.084" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="110" />
@@ -574,7 +574,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="281" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="64" />
@@ -583,7 +583,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="157.25" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="96" />
@@ -592,7 +592,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="247" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="29" />
@@ -601,7 +601,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="63.546" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="47" />
@@ -610,7 +610,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="107.868" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="79" />
@@ -619,7 +619,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="196.97" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="11" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="111" />
@@ -628,7 +628,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="280" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="65" />
@@ -637,7 +637,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="158.93" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="97" />
@@ -646,7 +646,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="247" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="30" />
@@ -655,7 +655,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="65.38" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="48" />
@@ -664,7 +664,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="112.41" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="80" />
@@ -673,7 +673,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="200.59" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="12" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="112" />
@@ -682,7 +682,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="285" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="66" />
@@ -691,7 +691,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="162.50" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="98" />
@@ -700,7 +700,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="251" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="2" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="2">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="5" />
@@ -709,7 +709,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="10.81" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="3" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="3">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="13" />
@@ -718,7 +718,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="26.982" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="31" />
@@ -727,7 +727,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="69.723" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="49" />
@@ -736,7 +736,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="114.818" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="81" />
@@ -745,7 +745,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="204.38" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="13" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="113" />
@@ -754,7 +754,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="284" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="67" />
@@ -763,7 +763,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="164.93" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="99" />
@@ -772,7 +772,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="252" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="2" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="2">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="6" />
@@ -781,7 +781,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="12.011" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="3" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="3">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="14" />
@@ -790,7 +790,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="28.085" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="32" />
@@ -799,7 +799,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="72.63" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="50" />
@@ -808,7 +808,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="118.71" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="82" />
@@ -817,7 +817,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="207.2" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="14" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="114" />
@@ -826,7 +826,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="289" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="68" />
@@ -835,7 +835,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="167.26" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="100" />
@@ -844,7 +844,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="257" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="2" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="2">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="7" />
@@ -853,7 +853,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="14.007" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="3" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="3">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="15" />
@@ -862,7 +862,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="30.974" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="33" />
@@ -871,7 +871,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="74.922" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="51" />
@@ -880,7 +880,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="121.76" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="83" />
@@ -889,7 +889,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="208.98" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="15" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="115" />
@@ -898,7 +898,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="288" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="69" />
@@ -907,7 +907,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="168.93" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="101" />
@@ -916,7 +916,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="258" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="2" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="2">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="8" />
@@ -925,7 +925,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="15.999" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="3" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="3">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="16" />
@@ -934,7 +934,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="32.06" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="34" />
@@ -943,7 +943,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="78.971" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="52" />
@@ -952,7 +952,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="127.60" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="84" />
@@ -961,7 +961,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="209, 16" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="16" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="116" />
@@ -970,7 +970,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="293" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="70" />
@@ -979,7 +979,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="173.04" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="102" />
@@ -988,7 +988,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="259" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="2" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="2">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="9" />
@@ -997,7 +997,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="18.998" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="3" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="3">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="17" />
@@ -1006,7 +1006,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="35.45" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="35" />
@@ -1015,7 +1015,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="79.904" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="53" />
@@ -1024,7 +1024,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="126.904" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="85" />
@@ -1033,7 +1033,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="210" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="17" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="117" />
@@ -1042,7 +1042,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="294" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="9" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="9">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="71" />
@@ -1051,7 +1051,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="175.00" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="10" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="10">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="103" />
@@ -1060,7 +1060,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="262" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="1" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="1">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="2" />
@@ -1069,7 +1069,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="4.0026" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="2" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="2">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="10" />
@@ -1078,7 +1078,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="20.180" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="3" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="3">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="18" />
@@ -1087,7 +1087,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="39.948" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="4" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="4">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="36" />
@@ -1096,7 +1096,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="83.798" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="5" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="5">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="54" />
@@ -1105,7 +1105,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="131.293" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="6" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="6">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="86" />
@@ -1114,7 +1114,7 @@
                               <Label id="atomic_mass" alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" prefHeight="17.0" prefWidth="63.0" styleClass="atomic_mass" stylesheets="@css/Style.css" text="222" />
                            </children>
                         </Pane>
-                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="7" onMouseClicked="#openElementView">
+                        <Pane id="1" maxHeight="62.62" maxWidth="62.62" minHeight="62.62" minWidth="62.62" onMouseClicked="#openElementView" prefHeight="62.62" prefWidth="62.62" styleClass="element" stylesheets="@css/Style.css" GridPane.columnIndex="18" GridPane.rowIndex="7">
                            <children>
                               <Pane id="triangle_pane" layoutX="51.0" layoutY="51.0" prefHeight="10.0" prefWidth="10.0" styleClass="triangle_pane" stylesheets="@css/Style.css" />
                               <Label id="atomic_number" contentDisplay="CENTER" layoutX="6.0" minWidth="57.0" prefHeight="22.0" prefWidth="57.0" styleClass="atomic_number" stylesheets="@css/Style.css" text="118" />
@@ -1136,98 +1136,6 @@
                               <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="IA" />
                            </children>
                         </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="2" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="IIA" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="3" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="IIIB" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="4" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="IVB" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="5" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="VB" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="6" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="VIB" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="7" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="VIIB" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="9" GridPane.rowIndex="3">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="9" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="VIIIB" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="11" GridPane.rowIndex="3">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="11" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="IB" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="12" GridPane.rowIndex="3">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="12" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="IIB" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="13" GridPane.rowIndex="1">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="13" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="IIIA" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="14" GridPane.rowIndex="1">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="14" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="IVA" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="15" GridPane.rowIndex="1">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="15" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="VA" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="16" GridPane.rowIndex="1">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="16" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="VIA" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="17" GridPane.rowIndex="1">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="17" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="VIIA" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="18">
-                           <children>
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="62.62" styleClass="group" text="18" />
-                              <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="31.31" prefWidth="63.0" styleClass="group" text="VIIIA" />
-                           </children>
-                        </VBox>
-                        <Pane id="}" prefHeight="62.62" prefWidth="62.62" styleClass="dos" stylesheets="@css/Style.css" GridPane.columnIndex="8" GridPane.rowIndex="3" />
-                        <Pane id="uno" prefHeight="62.62" prefWidth="62.62" styleClass="uno" stylesheets="@css/Style.css" GridPane.columnIndex="10" GridPane.rowIndex="3" />
                         
                      </children>
                   </GridPane>
