@@ -8,12 +8,17 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Objects;
 
 public class ElementViewController {
+	@FXML
+	ImageView elementImage;
 	@FXML
 	Label nameLabel;
 	@FXML
@@ -56,6 +61,12 @@ public class ElementViewController {
 	}
 
 	public void handleInfo(Element element) {
+		File file = new File(element.getImage());
+
+		Image image = new Image(file.toURI().toString());
+
+		elementImage.setImage(image);
+
 		nameLabel.setText(element.getName() + "(" + element.getSymbol() + ")");
 		atomicNumberLabel.setText(String.valueOf(element.getAtomicNumber()));
 		atomicMassLabel.setText(String.valueOf(element.getAtomicMass()));
