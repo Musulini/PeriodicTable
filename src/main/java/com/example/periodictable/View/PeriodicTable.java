@@ -1,20 +1,15 @@
-package com.example.periodictable;
+package com.example.periodictable.View;
 
-import com.example.periodictable.dao.ElementsDao;
-import com.example.periodictable.model.Elements;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.EventObject;
+import java.util.Objects;
 
-import static javax.swing.JOptionPane.*;
 
 public class PeriodicTable extends Application {
 
@@ -24,26 +19,18 @@ public class PeriodicTable extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-        try {
-            ElementsDao elementsDao = new ElementsDao();
-            for (Elements element : elementsDao.getAllElements()) {
-                System.out.println(element);
-            }
-        } catch (FileNotFoundException e) {
-            showMessageDialog(null, "No se encontraron elementos");
-        }
 
-        Parent root = FXMLLoader.load(getClass().getResource("Periodic_Table.fxml"));
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/example/periodictable/Periodic_Table.fxml")));
 
         Scene scene = new Scene(root);
 
        //stage.setFullScreen(true);
        // stage.setResizable(false);
 
-        String stylePath = PeriodicTable.class.getResource("css/Style.css").toExternalForm();
+        String stylePath = PeriodicTable.class.getResource("/com/example/periodictable/css/Style.css").toExternalForm();
         scene.getStylesheets().add(stylePath);
 
-        String iconPath = PeriodicTable.class.getResource("icons/App_Icon.png").toExternalForm();
+        String iconPath = PeriodicTable.class.getResource("/com/example/periodictable/icons/App_Icon.png").toExternalForm();
         Image icon = new Image(iconPath);
         stage.getIcons().add(icon);
 

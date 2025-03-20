@@ -8,8 +8,8 @@ module com.example.periodictable {
     requires org.kordamp.ikonli.javafx;
     requires java.desktop;
 
-    opens com.example.periodictable to javafx.fxml;
-    exports com.example.periodictable;
     exports com.example.periodictable.controller;
     opens com.example.periodictable.controller to javafx.fxml;
+	exports com.example.periodictable.View;
+	opens com.example.periodictable.View to javafx.fxml;
 }

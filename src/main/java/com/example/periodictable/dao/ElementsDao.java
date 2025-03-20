@@ -1,6 +1,6 @@
 package com.example.periodictable.dao;
 
-import com.example.periodictable.model.Elements;
+import com.example.periodictable.model.Element;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class ElementsDao {
-    List<Elements> elementsList;
+    List<Element> elementsList;
 
     public ElementsDao() throws FileNotFoundException {
         elementsList = new ArrayList<>();
@@ -25,8 +25,8 @@ public class ElementsDao {
         }
     }
 
-    public Elements createElement(String[] elementString) {
-        Elements element = new Elements();
+    public Element createElement(String[] elementString) {
+        Element element = new Element();
         element.setName(elementString[0]);
         element.setSymbol(elementString[1]);
         element.setAtomicNumber(Integer.parseInt(elementString[2]));
@@ -48,11 +48,11 @@ public class ElementsDao {
         return element;
     }
 
-    public Elements getElement(int id) {
-        return elementsList.get(id+1);
+    public Element getElement(int id) {
+        return elementsList.get(id-1);
     }
 
-    public List<Elements> getAllElements() {
+    public List<Element> getAllElements() {
         return elementsList;
     }
 }

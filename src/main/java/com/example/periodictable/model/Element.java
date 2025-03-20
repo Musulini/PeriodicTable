@@ -1,6 +1,6 @@
 package com.example.periodictable.model;
 
-public class Elements {
+public class Element {
     private String name;
     private String symbol;
     private int atomicNumber;
@@ -22,11 +22,11 @@ public class Elements {
     //             //
     // CONSTRUCTOR //
     //             //
-    public Elements(){
+    public Element(){
 
     }
 
-    public Elements(
+    public Element(
             String name,
             String symbol,
             int atomicNumber,
