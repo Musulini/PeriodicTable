@@ -1,0 +1,81 @@
+.root {
+    -fx-primary-color: #000000;
+    -fx-gradient: linear-gradient(to top left, #000000, #141925);
+    -fx-gradientII: linear-gradient(to top right, #000000, #141925);
+    -fx-font-color: #ffffff;
+    -fx-no_metal: #329ffe;
+    -fx-no_metal_blur: rgba(50, 159, 254, 0.21);
+    -fx-metal_de_transicion: #60c5e3;
+    -fx-metal_de_transicion_blur: rgba(96, 197, 227, 0.21);
+    -fx-actinido: #ff211e;
+    -fx-actinido_blur: rgba(255, 33, 30, 0.21);
+    -fx-metal_basico: #ff7f26;
+    -fx-metal_basico_blur: rgba(255, 127, 38, 0.21);
+    -fx-gas_noble: #ffc90d ;
+    -fx-gas_noble_blur: rgba(255, 201, 13, 0.21);
+    -fx-halogeno: #f7f41d;
+    -fx-halogeno_blur: rgba(247, 244, 29, 0.21);
+    -fx-lantanido: #bafc29;
+    -fx-lantanido_blur: rgba(186, 252, 41, 0.21);
+    -fx-semi_metal: #41d28d;
+    -fx-semi_metal_blur: rgba(65, 210, 141, 0.21);
+    -fx-metal_alcalino: #db25d9;
+    -fx-metal_alcalino_blur: rgba(219, 37, 217, 0.21);
+    -fx-metal_alcalino_terreo: #aa4dfd;
+    -fx-metal_alcalino_terreo_blur: rgba(170, 77, 253, 0.21);
+    -fx-font-size: 14px;
+    -fx-font-family: "Roboto Mono";
+}
+
+.window, .principal, .hbox_img {
+    -fx-background-color: -fx-gradient;
+}
+
+.principal, .left_container, .hbox_img, .img {
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: -fx-font-color;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.info {
+    -fx-text-fill: -fx-font-color;
+    -fx-font-family: -fx-font-family;
+    -fx-font-size: 20px;
+}
+
+.img_symbol {
+    -fx-border-width: 0 0 1px 0; /* Solo el borde superior tiene 1px de ancho */
+    -fx-border-color: rgb(255, 255, 255); /* Color del borde */
+    -fx-border-style: solid;
+}
+
+.img {
+    -fx-background-image: url("../icons/App_Icon.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.name {
+    -fx-font-family: -fx-font-family;
+}
+
+.name_container {
+    -fx-border-width: 1px; /* Solo el borde superior tiene 1px de ancho */
+    -fx-border-color: rgb(255, 255, 255); /* Color del borde */
+    -fx-border-style: solid; /* Estilo del borde */
+}
+
+.triangle {
+    -fx-background-image: url("../color_group/Triangle.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.atomic_mass {
+    -fx-text-fill: -fx-font-color;
+    -fx-font-size: 18px;
+}

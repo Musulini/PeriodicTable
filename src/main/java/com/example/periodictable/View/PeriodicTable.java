@@ -25,7 +25,7 @@ public class PeriodicTable extends Application {
         Scene scene = new Scene(root);
 
        //stage.setFullScreen(true);
-       // stage.setResizable(false);
+       stage.setResizable(false);
 
         String stylePath = PeriodicTable.class.getResource("/com/example/periodictable/css/Style.css").toExternalForm();
         scene.getStylesheets().add(stylePath);

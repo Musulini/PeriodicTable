@@ -1,34 +1,35 @@
 .root {
     -fx-primary-color: #000000;
+    -fx-gradient: linear-gradient(to top left, #000000, #141925);
+    -fx-gradientII: linear-gradient(to top right, #000000, #141925);
     -fx-font-color: #ffffff;
     -fx-no_metal: #329ffe;
     -fx-no_metal_blur: rgba(50, 159, 254, 0.21);
+    -fx-metal_de_transicion: #60c5e3;
+    -fx-metal_de_transicion_blur: rgba(96, 197, 227, 0.21);
+    -fx-actinido: #ff211e;
+    -fx-actinido_blur: rgba(255, 33, 30, 0.21);
+    -fx-metal_basico: #ff7f26;
+    -fx-metal_basico_blur: rgba(255, 127, 38, 0.21);
+    -fx-gas_noble: #ffc90d ;
+    -fx-gas_noble_blur: rgba(255, 201, 13, 0.21);
+    -fx-halogeno: #f7f41d;
+    -fx-halogeno_blur: rgba(247, 244, 29, 0.21);
+    -fx-lantanido: #bafc29;
+    -fx-lantanido_blur: rgba(186, 252, 41, 0.21);
+    -fx-semi_metal: #41d28d;
+    -fx-semi_metal_blur: rgba(65, 210, 141, 0.21);
+    -fx-metal_alcalino: #db25d9;
+    -fx-metal_alcalino_blur: rgba(219, 37, 217, 0.21);
+    -fx-metal_alcalino_terreo: #aa4dfd;
+    -fx-metal_alcalino_terreo_blur: rgba(170, 77, 253, 0.21);
     -fx-font-size: 14px;
     -fx-font-family: "Roboto Mono";
 }
 
-.test {
-    -fx-font-family: -fx-font-family;
-    -fx-text-fill: white;
-}
-
+/*VENTANA*/
 .window {
     -fx-background-color: -fx-primary-color;
-}
-
-.title_bar {
-    -fx-background-radius: 10px;
-    -fx-background-color:  -fx-primary-color;
-    -fx-border-width: 1px;
-    -fx-border-style: solid;
-    -fx-border-color: white;
-    -fx-border-radius: 10px;
-}
-
-.title{
-    -fx-text-fill: white;
-    -fx-font-family: -fx-font-family;
-    -fx-font-size: 30px;
 }
 
 .icon_app {
@@ -38,17 +39,34 @@
     -fx-background-position: center;
 }
 
+/*APP TITULO*/
+.title_bar {
+    -fx-background-radius: 10px;
+    -fx-background-color:  -fx-primary-color;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: -fx-font-color;
+    -fx-border-radius: 10px;
+}
+
+.title{
+    -fx-text-fill: -fx-font-color;
+    -fx-font-family: -fx-font-family;
+    -fx-font-size: 30px;
+}
+
+/*CONTENEDORES*/
 .principal_container {
     -fx-border-width: 1px;
     -fx-border-style: solid;
-    -fx-border-color: white;
+    -fx-border-color: -fx-font-color;
     -fx-border-radius: 10px;
-    -fx-background-color: -fx-secondary-color;
+    -fx-background-color: -fx-gradient;
     -fx-background-radius: 10px;
 }
 
 .hbox_table{
-    -fx-background-color:  -fx-primary-color;
+    -fx-background-color:  -fx-gradient;
     -fx-background-radius: 10px;
 
 }
@@ -57,7 +75,19 @@
     -fx-padding: 2px;
 }
 
-.element_no_metal {
+/*ELEMENTOS*/
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+.element_no_metal,
+.element_metal_de_transicion,
+.element_actinido,
+.element_metal_basico,
+.element_gas_noble,
+.element_halogeno,
+.element_lantanido,
+.element_semi_metal,
+.element_metal_alcalino,
+.element_metal_alcalino_terreo {
     -fx-border-width: 1px;
     -fx-border-style: solid;
     -fx-border-color: -fx-no_metal;
@@ -70,13 +100,153 @@
     -fx-background-color: -fx-no_metal_blur;
 }
 
-.no_metal {
+.no_metal,
+.metal_de_transicion,
+.actinido,
+.metal_basico,
+.gas_noble,
+.halogeno,
+.lantanido,
+.semi_metal,
+.metal_alcalino,
+.metal_alcalino_terreo,
+.izquierda,
+.derecha,
+.arriba_I,
+.arriba_II,
+.arriba,
+.arriba_III,
+.arriba_IV {
 
     -fx-background-image: url("../color_group/noMetal.png");
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_metal_de_transicion {
+    -fx-border-color: -fx-metal_de_transicion;
+}
+
+.element_metal_de_transicion:hover {
+        -fx-background-color: -fx-metal_de_transicion_blur;
+}
+
+.metal_de_transicion {
+    -fx-background-image: url("../color_group/metalDeTransicion.png");
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_actinido {
+    -fx-border-color: -fx-actinido;
+}
+
+.element_actinido:hover {
+    -fx-background-color: -fx-actinido_blur;
+}
+
+.actinido {
+    -fx-background-image: url("../color_group/actinido.png");
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_metal_basico {
+    -fx-border-color: -fx-metal_basico;
+}
+
+.element_metal_basico:hover {
+    -fx-background-color: -fx-metal_basico_blur;
+}
+
+.metal_basico {
+    -fx-background-image: url("../color_group/metalBasico.png");
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_gas_noble {
+    -fx-border-color: -fx-gas_noble;
+}
+
+.element_gas_noble:hover {
+    -fx-background-color: -fx-gas_noble_blur;
+}
+
+.gas_noble {
+    -fx-background-image: url("../color_group/gasesNobles.png");
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_halogeno {
+    -fx-border-color: -fx-halogeno;
+}
+
+.element_halogeno:hover {
+    -fx-background-color: -fx-halogeno_blur;
+}
+
+.halogeno {
+    -fx-background-image: url("../color_group/halogenos.png");
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_lantanido {
+    -fx-border-color: -fx-lantanido;
+}
+
+.element_lantanido:hover {
+    -fx-background-color: -fx-lantanido_blur;
+}
+
+.lantanido {
+    -fx-background-image: url("../color_group/lantanido.png");
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_semi_metal {
+    -fx-border-color: -fx-semi_metal;
+}
+
+.element_semi_metal:hover {
+    -fx-background-color: -fx-semi_metal_blur;
+}
+
+.semi_metal {
+    -fx-background-image: url("../color_group/SemiMetal.png");
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_metal_alcalino {
+    -fx-border-color: -fx-metal_alcalino;
+}
+
+.element_metal_alcalino:hover {
+    -fx-background-color: -fx-metal_alcalino_blur;
+}
+
+.metal_alcalino {
+    -fx-background-image: url("../color_group/metalAlcalino.png");
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.element_metal_alcalino_terreo {
+    -fx-border-color: -fx-metal_alcalino_terreo;
+}
+
+.element_metal_alcalino_terreo:hover {
+    -fx-background-color: -fx-metal_alcalino_terreo_blur;
+}
+
+.metal_alcalino_terreo {
+    -fx-background-image: url("../color_group/metalAlcalinoterreo.png");
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
 
 .atomic_number {
     -fx-font-size: 10px;
@@ -99,7 +269,39 @@
     -fx-font-size: 8px;
 }
 
-.group {
-    -fx-font-size: 12px;
-    -fx-text-fill: white;
+.group, .group_name {
+    -fx-font-size: 13px;
+    -fx-text-fill: -fx-font-color;
+}
+
+.group_name {
+    -fx-font-size: 14px;
+}
+
+.izquierda {
+    -fx-background-image: url("../rows/izquierda.png");
+}
+
+.derecha {
+    -fx-background-image: url("../rows/derecha.png");
+}
+
+.arriba_I {
+    -fx-background-image: url("../rows/arriba_I.png");
+}
+
+.arriba_II {
+    -fx-background-image: url("../rows/arriba_II.png");
+}
+
+.arriba {
+    -fx-background-image: url("../rows/arriba.png");
+}
+
+.arriba_III {
+    -fx-background-image: url("../rows/arriba_III.png");
+}
+
+.arriba_IV {
+    -fx-background-image: url("../rows/arriba_IV.png");
 }
