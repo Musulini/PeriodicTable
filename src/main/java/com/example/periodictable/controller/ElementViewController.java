@@ -45,6 +45,7 @@ public class ElementViewController {
 	@FXML
 	Label discoveringYearLabel;
 
+
 	@FXML
 	public void openPeriodicTable(ActionEvent event) throws IOException {
 		Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/example/periodictable/Periodic_Table.fxml")));
