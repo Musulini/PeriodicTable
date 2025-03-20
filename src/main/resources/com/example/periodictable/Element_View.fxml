@@ -2,24 +2,21 @@
 
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="920.0" prefWidth="1516.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.periodictable.controller.ElementViewController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="920.0" prefWidth="1516.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.periodictable.controller.ElementViewController">
     <children>
         <HBox prefHeight="917.0" prefWidth="1518.0" spacing="15.0">
             <children>
                 <VBox prefHeight="913.0" prefWidth="801.0">
                     <children>
-                        <Pane prefHeight="780.0" prefWidth="500.0" style="-fx-border-color: red;">
+                        <HBox prefHeight="500.0" prefWidth="500.0" style="-fx-border-color: red;">
                             <children>
-                                <Label layoutX="357.0" layoutY="286.0" prefHeight="50.0" prefWidth="85.0" text="IMG">
-                                    <font>
-                                        <Font size="41.0" />
-                                    </font>
-                                </Label>
+                                <ImageView fx:id="elementImage" fitHeight="500.0" fitWidth="500.0" layoutX="0.0" layoutY="0.0" preserveRatio="false" />
                             </children>
-                        </Pane>
+                        </HBox>
                         <Pane prefHeight="138.0" prefWidth="499.0" style="-fx-border-color: red;">
                             <children>
                                 <Label fx:id="nameLabel" layoutX="2.0" layoutY="-1.0" prefHeight="134.0" prefWidth="492.0">
