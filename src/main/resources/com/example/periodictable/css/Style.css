@@ -1,5 +1,5 @@
 .root {
-    -fx-primary-color: #111016;
+    -fx-primary-color: #000000;
     -fx-secondary-color: #201f24;
     -fx-font-size: 14px;
     -fx-font-family: "Roboto Mono";
@@ -16,7 +16,7 @@
 
 .title_bar {
     -fx-background-radius: 10px;
-    -fx-background-color: linear-gradient(to top right, #080d0e, #324043);
+    -fx-background-color:  -fx-primary-color;
     -fx-border-width: 1px;
     -fx-border-style: solid;
     -fx-border-color: white;
@@ -46,7 +46,7 @@
 }
 
 .hbox_table{
-    -fx-background-color: linear-gradient(to top right, #080d0e, #324043);
+    -fx-background-color:  -fx-primary-color;
     -fx-background-radius: 10px;
 
 }
