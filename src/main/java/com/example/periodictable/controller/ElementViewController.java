@@ -10,17 +10,34 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.EventObject;
 import java.util.Objects;
 
 public class ElementViewController {
+
+	@FXML
+	AnchorPane mainContainer;
+	// ELEMENT PANE
+	@FXML
+	private Pane nameContainer;
+
+	@FXML
+	private Pane triangleElement;
+
 	@FXML
 	ImageView elementImage;
 	@FXML
 	Label nameLabel;
+	@FXML
+	Label symbolLabel;
 	@FXML
 	Label atomicNumberLabel;
 	@FXML
@@ -52,22 +69,32 @@ public class ElementViewController {
 
 
 	@FXML
-	public void openPeriodicTable(ActionEvent event) throws IOException {
-		Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/example/periodictable/Periodic_Table.fxml")));
-		Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-		Scene scene = new Scene(root);
-		stage.setScene(scene);
-		stage.show();
+	public void clickedButton(ActionEvent event) throws IOException {
+		backtoPeriodicTable(event);
 	}
 
-	public void handleInfo(Element element) {
-		File file = new File(element.getImage());
+	@FXML
+	public void escPressed(KeyEvent event) throws IOException {
+		if (event.getCode().equals(KeyCode.ESCAPE)) {
+			backtoPeriodicTable(event);
+		}
+	}
 
+
+	public void handleInfo(Element element, String[] elementStyleClasses) {
+		File file = new File(element.getImage());
 		Image image = new Image(file.toURI().toString());
 
-		elementImage.setImage(image);
+		//AÑADIENDO ESTILO A nameContainer
+		nameContainer.getStyleClass().add(elementStyleClasses[0]);
+		triangleElement.getStyleClass().add(elementStyleClasses[1]);
 
-		nameLabel.setText(element.getName() + "(" + element.getSymbol() + ")");
+		System.out.println(nameContainer.getStyle());
+
+		//AÑADIENDO CONTENIDO
+		elementImage.setImage(image);
+		nameLabel.setText(element.getName());
+		symbolLabel.setText(element.getSymbol());
 		atomicNumberLabel.setText(String.valueOf(element.getAtomicNumber()));
 		atomicMassLabel.setText(String.valueOf(element.getAtomicMass()));
 		groupLabel.setText(String.valueOf(element.getAtomicGroup()));
@@ -82,5 +109,13 @@ public class ElementViewController {
 		atomicRadiusLabel.setText(String.valueOf(element.getAtomicRadius()));
 		discovererLabel.setText(String.valueOf(element.getDiscoverer()));
 		discoveringYearLabel.setText(String.valueOf(element.getDiscoveryYear()));
+	}
+
+	public void backtoPeriodicTable(EventObject event) throws IOException {
+		Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/example/periodictable/Periodic_Table.fxml")));
+		Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		Scene scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
 	}
 }

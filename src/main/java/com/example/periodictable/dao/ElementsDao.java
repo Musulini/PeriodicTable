@@ -27,7 +27,6 @@ public class ElementsDao {
 	}
 
 	public Element createElement(String[] elementString) {
-		System.out.println("elemenstrin: " + Arrays.toString(elementString));
 		Element element = new Element();
 		element.setName(elementString[0]);
 		element.setSymbol(elementString[1]);

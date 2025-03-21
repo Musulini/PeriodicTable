@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
-<?import javafx.scene.layout.RowConstraints?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="920.0" maxWidth="1516.0" minHeight="920.0" minWidth="1516.0" prefHeight="920.0" prefWidth="1516.0" styleClass="window" stylesheets="@css/Information_View.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.periodictable.controller.ElementViewController">
+<AnchorPane fx:id="mainContainer" maxHeight="920.0" maxWidth="1516.0" minHeight="920.0" minWidth="1516.0" onKeyPressed="#escPressed" prefHeight="920.0" prefWidth="1516.0" styleClass="window" stylesheets="@css/Information_View.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.periodictable.controller.ElementViewController">
     <children>
         <HBox alignment="CENTER" layoutX="18.0" layoutY="21.0" maxHeight="877.0" maxWidth="1478.0" minHeight="877.0" minWidth="1478.0" prefHeight="877.0" prefWidth="1478.0" styleClass="principal" stylesheets="@css/Information_View.css">
             <children>
@@ -21,52 +15,66 @@
                     <children>
                         <Pane maxHeight="700.0" maxWidth="750.0" minHeight="700.0" minWidth="750.0" prefHeight="700.0" prefWidth="750.0" styleClass="hbox_img" stylesheets="@css/Information_View.css">
                             <children>
-                        <HBox alignment="CENTER" layoutX="25.0" layoutY="14.0" maxHeight="450.0" maxWidth="700.0" minHeight="450.0" minWidth="700.0" prefHeight="450.0" prefWidth="700.0" spacing="30.0" styleClass="img_symbol" stylesheets="@css/Information_View.css">
-                           <children>
-                                      <ImageView fx:id="elementImage" fitHeight="300.0" fitWidth="300.0" preserveRatio="false" styleClass="img" />
-                              <Pane maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" styleClass="name_container" stylesheets="@css/Information_View.css">
-                                 <children>
-                                            <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" styleClass="name" stylesheets="@css/Information_View.css" textAlignment="CENTER">
-                                                <font>
-                                                    <Font name="Roboto Mono Italic" size="52.0" />
-                                                </font>
-                                            </Label>
-                                          <Label fx:id="atomicNumberLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="20.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" textAlignment="CENTER">
-                                              <font>
-                                                  <Font size="20.0" />
-                                              </font>
-                                          </Label>
-                                    <Pane layoutX="238.0" layoutY="238.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" prefHeight="60.0" prefWidth="60.0" styleClass="triangle" stylesheets="@css/Information_View.css" />
-                                          <Label fx:id="atomicMassLabel" alignment="CENTER" layoutY="216.0" prefHeight="30.0" prefWidth="300.0" styleClass="atomic_mass" stylesheets="@css/Information_View.css">
-                                              <font>
-                                                  <Font size="20.0" />
-                                              </font>
-                                          </Label>
-                                 </children>
-                              </Pane>
-                           </children>
-                        </HBox>
-                        <Pane layoutY="465.0" prefHeight="235.0" prefWidth="758.0">
-                           <children>
-                                    <Label layoutX="25.0" layoutY="14.0" prefHeight="30.0" prefWidth="241.0" styleClass="info" stylesheets="@css/Information_View.css" text="Configuración Electronica:">
-                                        <font>
-                                            <Font size="20.0" />
-                                        </font>
-                                    </Label>
-                                    <Label fx:id="electronConfigLabel" contentDisplay="CENTER" layoutX="25.0" layoutY="87.0" prefHeight="30.0" prefWidth="717.0">
-                                        <font>
-                                            <Font size="20.0" />
-                                        </font>
-                                    </Label>
-                           </children>
-                        </Pane>
+                                <HBox alignment="CENTER" layoutX="25.0" layoutY="14.0" maxHeight="450.0" maxWidth="700.0" minHeight="450.0" minWidth="700.0" prefHeight="450.0" prefWidth="700.0" spacing="30.0" styleClass="img_symbol" stylesheets="@css/Information_View.css">
+                                    <children>
+                                        <ImageView fx:id="elementImage" fitHeight="300.0" fitWidth="300.0" preserveRatio="false" styleClass="img" />
+                                        <Pane fx:id="nameContainer" maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" styleClass="name_container">
+                                            <children>
+                                                <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" styleClass="name" stylesheets="@css/Information_View.css" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font name="Roboto Mono Italic" size="52.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="symbolLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="153.0" maxHeight="300.0" maxWidth="300.0" minHeight="60.0" minWidth="300.0" prefHeight="60.0" prefWidth="300.0" styleClass="name" stylesheets="@css/Information_View.css" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font name="Roboto Mono Italic" size="52.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="atomicNumberLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="20.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font size="20.0" />
+                                                    </font>
+                                                </Label>
+                                                <Pane fx:id="triangleElement" layoutX="238.0" layoutY="238.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" prefHeight="60.0" prefWidth="60.0" styleClass="triangle">
+                                                    <stylesheets>
+                                                        <URL value="@css/Information_View.css" />
+                                                        <URL value="@css/Style.css" />
+                                                    </stylesheets>
+                                                </Pane>
+                                                <Label fx:id="atomicMassLabel" alignment="CENTER" layoutY="216.0" prefHeight="30.0" prefWidth="300.0" styleClass="atomic_mass" stylesheets="@css/Information_View.css">
+                                                    <font>
+                                                        <Font size="20.0" />
+                                                    </font>
+                                                </Label>
+                                            </children>
+                                            <stylesheets>
+                                                <URL value="@css/Information_View.css" />
+                                                <URL value="@css/Style.css" />
+                                            </stylesheets>
+                                        </Pane>
+                                    </children>
+                                </HBox>
+                                <Pane layoutY="465.0" prefHeight="235.0" prefWidth="758.0">
+                                    <children>
+                                        <Label layoutX="25.0" layoutY="14.0" prefHeight="30.0" prefWidth="241.0" styleClass="info" stylesheets="@css/Information_View.css" text="Configuración Electronica:">
+                                            <font>
+                                                <Font size="20.0" />
+                                            </font>
+                                        </Label>
+                                        <Label fx:id="electronConfigLabel" contentDisplay="CENTER" layoutX="25.0" layoutY="87.0" prefHeight="30.0" prefWidth="717.0">
+                                            <font>
+                                                <Font size="20.0" />
+                                            </font>
+                                        </Label>
+                                    </children>
+                                </Pane>
                             </children>
                         </Pane>
-                  <Pane prefHeight="134.0" prefWidth="778.0">
-                     <children>
-                              <Button layoutX="26.0" layoutY="47.0" mnemonicParsing="false" onAction="#openPeriodicTable" prefHeight="40.0" prefWidth="117.0" text="Regresar" />
-                     </children>
-                  </Pane>
+                        <Pane prefHeight="134.0" prefWidth="778.0">
+                            <children>
+                                <Button layoutX="26.0" layoutY="47.0" mnemonicParsing="false" onAction="#clickedButton" prefHeight="40.0" prefWidth="117.0" text="Regresar" />
+                            </children>
+                        </Pane>
                     </children>
                     <padding>
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
