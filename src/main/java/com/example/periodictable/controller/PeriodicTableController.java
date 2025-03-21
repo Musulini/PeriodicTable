@@ -9,6 +9,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
@@ -26,12 +27,16 @@ public class PeriodicTableController {
 	Parent root;
 	@FXML
 	private Pane elementPane;
+	@FXML
+	private Pane firstChildren;
 
 	int i = 0;
 
 	@FXML
 	public void openElementView(MouseEvent event) throws IOException {
+		String[] elementStyleClasses;
 		ElementsDao elementsDao = null;
+
 		try {
 			elementsDao = new ElementsDao();
 		} catch (FileNotFoundException e) {
@@ -39,6 +44,11 @@ public class PeriodicTableController {
 		}
 
 		elementPane = (Pane) event.getSource();
+		firstChildren = (Pane) elementPane.getChildren().getFirst();
+
+		elementStyleClasses = new String[]{elementPane.getStyleClass().toString(), firstChildren.getStyleClass().toString()};
+
+		System.out.println(elementPane.getStyleClass());
 
 		Label atomicNumberLabel = (Label) elementPane.getChildren().get(1);
 		atomicNumberLabel.getText();
@@ -49,7 +59,7 @@ public class PeriodicTableController {
 		root = loader.load();
 
 		ElementViewController elementViewController = loader.getController();
-		elementViewController.handleInfo(selectedElement);
+		elementViewController.handleInfo(selectedElement, elementStyleClasses);
 
 		Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 		Scene scene = new Scene(root);
