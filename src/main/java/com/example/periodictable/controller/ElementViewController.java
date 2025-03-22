@@ -1,6 +1,7 @@
 package com.example.periodictable.controller;
 
 import com.example.periodictable.model.Element;
+import javafx.animation.*;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,7 +15,10 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
+import javafx.scene.transform.Rotate;
 import javafx.stage.Stage;
+import javafx.util.Duration;
+import org.apache.commons.lang3.time.StopWatch;
 
 import java.io.File;
 import java.io.IOException;
@@ -67,7 +71,6 @@ public class ElementViewController {
 	@FXML
 	Label discoveringYearLabel;
 
-
 	@FXML
 	public void clickedButton(ActionEvent event) throws IOException {
 		backtoPeriodicTable(event);
@@ -79,7 +82,6 @@ public class ElementViewController {
 			backtoPeriodicTable(event);
 		}
 	}
-
 
 	public void handleInfo(Element element, String[] elementStyleClasses) {
 		File file = new File(element.getImage());
@@ -109,6 +111,36 @@ public class ElementViewController {
 		atomicRadiusLabel.setText(String.valueOf(element.getAtomicRadius()));
 		discovererLabel.setText(String.valueOf(element.getDiscoverer()));
 		discoveringYearLabel.setText(String.valueOf(element.getDiscoveryYear()));
+
+		rotateImage();
+	}
+
+	public void rotateImage() {
+		TranslateTransition translate = new TranslateTransition();
+		RotateTransition rotateZ = new RotateTransition();
+		FadeTransition fade = new FadeTransition();
+
+		translate.setNode(elementImage);
+		translate.setDuration(Duration.seconds(1));
+		translate.setCycleCount(TranslateTransition.INDEFINITE);
+		translate.setByY(10);
+		translate.setAutoReverse(true);
+		translate.play();
+
+		rotateZ.setNode(elementImage);
+		rotateZ.setDuration(Duration.millis(7000));
+		rotateZ.setCycleCount(TranslateTransition.INDEFINITE);
+		rotateZ.setInterpolator(Interpolator.LINEAR);
+		rotateZ.setByAngle(360);
+		rotateZ.play();
+
+
+		fade.setNode(elementImage);
+		fade.setDuration(Duration.seconds(1));
+		fade.setInterpolator(Interpolator.LINEAR);
+		fade.setFromValue(0);
+		fade.setToValue(1);
+		fade.play();
 	}
 
 	public void backtoPeriodicTable(EventObject event) throws IOException {
