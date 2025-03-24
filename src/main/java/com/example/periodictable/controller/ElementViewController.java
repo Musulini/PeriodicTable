@@ -1,5 +1,6 @@
 package com.example.periodictable.controller;
 
+import com.example.periodictable.dao.ElementsDao;
 import com.example.periodictable.model.Element;
 import javafx.animation.*;
 import javafx.event.ActionEvent;
@@ -24,6 +25,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.EventObject;
 import java.util.Objects;
+
+import static java.lang.Integer.parseInt;
 
 public class ElementViewController {
 
@@ -71,19 +74,34 @@ public class ElementViewController {
 	@FXML
 	Label discoveringYearLabel;
 
+	String[] styles = new String[2];
+
 	@FXML
 	public void clickedButton(ActionEvent event) throws IOException {
 		backtoPeriodicTable(event);
 	}
 
 	@FXML
-	public void escPressed(KeyEvent event) throws IOException {
+	public void keyPressed(KeyEvent event) throws IOException {
 		if (event.getCode().equals(KeyCode.ESCAPE)) {
 			backtoPeriodicTable(event);
+		}
+
+		//Left Arrow (Previous Element)
+		if (event.getCode().equals(KeyCode.LEFT)) {
+			previousElement();
+			System.out.println("ola left");
+		}
+
+		//Left Arrow (Next Element)
+		if (event.getCode().equals(KeyCode.RIGHT)) {
+			System.out.println("ola right");
+			nextElement();
 		}
 	}
 
 	public void handleInfo(Element element, String[] elementStyleClasses) {
+		styles = elementStyleClasses;
 		File file = new File(element.getImage());
 		Image image = new Image(file.toURI().toString());
 
@@ -149,5 +167,17 @@ public class ElementViewController {
 		Scene scene = new Scene(root);
 		stage.setScene(scene);
 		stage.show();
+	}
+
+	public void previousElement() throws IOException {
+		int atomicNumber = parseInt(atomicNumberLabel.getText());
+		ElementsDao elementsDao = new ElementsDao();
+		handleInfo(elementsDao.getElement(atomicNumber - 1), styles);
+	}
+
+	public void nextElement() throws IOException {
+		int atomicNumber = parseInt(atomicNumberLabel.getText());
+		ElementsDao elementsDao = new ElementsDao();
+		handleInfo(elementsDao.getElement(atomicNumber + 1), styles);
 	}
 }
