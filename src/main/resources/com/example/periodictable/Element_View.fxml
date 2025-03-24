@@ -14,7 +14,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="mainContainer" maxHeight="920.0" maxWidth="1516.0" minHeight="920.0" minWidth="1516.0" onKeyPressed="#escPressed" prefHeight="920.0" prefWidth="1516.0" styleClass="window" stylesheets="@css/Information_View.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.periodictable.controller.ElementViewController">
+<AnchorPane fx:id="mainContainer" maxHeight="920.0" maxWidth="1516.0" minHeight="920.0" minWidth="1516.0" onKeyPressed="#keyPressed" onKeyTyped="#arrows" prefHeight="920.0" prefWidth="1516.0" styleClass="window" stylesheets="@css/Information_View.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.periodictable.controller.ElementViewController">
     <children>
         <HBox alignment="CENTER" layoutX="18.0" layoutY="21.0" maxHeight="877.0" maxWidth="1478.0" minHeight="877.0" minWidth="1478.0" prefHeight="877.0" prefWidth="1478.0" styleClass="principal" stylesheets="@css/Information_View.css">
             <children>
