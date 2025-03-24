@@ -4,7 +4,7 @@ public class Element {
     private String name;
     private String symbol;
     private int atomicNumber;
-    private double atomicMass;
+    private String atomicMass;
     private int atomicGroup;
     private int period;
     private String aggregationState;
@@ -30,7 +30,7 @@ public class Element {
             String name,
             String symbol,
             int atomicNumber,
-            double atomicMass,
+            String atomicMass,
             int atomicGroup,
             int period,
             String aggregationState,
@@ -79,7 +79,7 @@ public class Element {
         return atomicNumber;
     }
 
-    public double getAtomicMass() {
+    public String getAtomicMass() {
         return atomicMass;
     }
 
@@ -150,7 +150,7 @@ public class Element {
         this.atomicNumber = atomicNumber;
     }
 
-    public void setAtomicMass(double atomicMass) {
+    public void setAtomicMass(String atomicMass) {
         this.atomicMass = atomicMass;
     }
 

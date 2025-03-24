@@ -31,7 +31,7 @@ public class ElementsDao {
 		element.setName(elementString[0]);
 		element.setSymbol(elementString[1]);
 		element.setAtomicNumber(Integer.parseInt(elementString[2]));
-		element.setAtomicMass(Float.parseFloat(elementString[3]));
+		element.setAtomicMass(elementString[3]);
 		element.setAtomicGroup(Integer.parseInt(elementString[4]));
 		element.setPeriod(Integer.parseInt(elementString[5]));
 		element.setAggregationState(elementString[6]);

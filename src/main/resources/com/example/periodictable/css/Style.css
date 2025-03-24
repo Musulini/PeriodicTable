@@ -3,7 +3,8 @@
     -fx-gradient: linear-gradient(to top left, #000000, #141925);
     -fx-gradientII: linear-gradient(to top right, #000000, #141925);
     -fx-font-color: #ffffff;
-    -fx-no_metal: #329ffe;
+    -fx-check-color: #6e6c6c;
+    -fx-no_metal: #329fee;
     -fx-no_metal_blur: rgba(50, 159, 254, 0.21);
     -fx-metal_de_transicion: #60c5e3;
     -fx-metal_de_transicion_blur: rgba(96, 197, 227, 0.21);
@@ -52,7 +53,7 @@
 .title{
     -fx-text-fill: -fx-font-color;
     -fx-font-family: -fx-font-family;
-    -fx-font-size: 30px;
+    -fx-font-size: 20px;
 }
 
 /*CONTENEDORES*/
@@ -304,4 +305,79 @@
 
 .arriba_IV {
     -fx-background-image: url("../rows/arriba_IV.png");
+}
+
+.super {
+    /*-fx-background-color: -fx-check-color;*/
+    -fx-background-color: trasparent;
+}
+
+.info_label {
+    -fx-text-fill: -fx-font-color;
+}
+
+.info_no_metal,
+.info_metal_de_transicion,
+.info_actinido,
+.info_metal_basico,
+.info_gas_noble,
+.info_halogeno,
+.info_lantanido,
+.info_semi_metal,
+.info_metal_alcalino,
+.info_metal_alcalino_terreo {
+    -fx-background-radius: 50%;
+    -fx-border-radius: 50%;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+}
+
+.info_no_metal {
+        -fx-background-color: -fx-no_metal_blur;
+    -fx-border-color: -fx-no_metal;
+}
+
+.info_metal_de_transicion {
+    -fx-background-color: -fx-metal_de_transicion_blur;
+    -fx-border-color: -fx-metal_de_transicion;
+}
+
+.info_actinido {
+    -fx-background-color: -fx-actinido_blur;
+    -fx-border-color: -fx-actinido;
+}
+
+.info_metal_basico {
+    -fx-background-color: -fx-metal_basico_blur;
+    -fx-border-color: -fx-metal_basico;
+}
+
+.info_gas_noble {
+    -fx-background-color: -fx-gas_noble_blur;
+    -fx-border-color: -fx-gas_noble;
+}
+
+.info_halogeno {
+    -fx-background-color: -fx-halogeno_blur;
+    -fx-border-color: -fx-halogeno;
+}
+
+.info_lantanido {
+    -fx-background-color: -fx-lantanido_blur;
+    -fx-border-color: -fx-lantanido;
+}
+
+.info_semi_metal {
+    -fx-background-color: -fx-semi_metal_blur;
+    -fx-border-color: -fx-semi_metal;
+}
+
+.info_metal_alcalino {
+    -fx-background-color: -fx-metal_alcalino_blur;
+    -fx-border-color: -fx-metal_alcalino;
+}
+
+.info_metal_alcalino_terreo {
+    -fx-background-color: -fx-metal_alcalino_terreo_blur;
+    -fx-border-color: -fx-metal_alcalino_terreo;
 }

@@ -3,7 +3,11 @@
     -fx-gradient: linear-gradient(to top left, #000000, #141925);
     -fx-gradientII: linear-gradient(to top right, #000000, #141925);
     -fx-font-color: #ffffff;
+    -fx-font-color_blur: rgba(255, 255, 255, 0.21);
     -fx-no_metal: #329ffe;
+    -fx-properties_color: #00a877;
+    -fx-elec_color: #f6501c;
+    -fx-note_color: #3d84e3;
     -fx-no_metal_blur: rgba(50, 159, 254, 0.21);
     -fx-metal_de_transicion: #60c5e3;
     -fx-metal_de_transicion_blur: rgba(96, 197, 227, 0.21);
@@ -39,15 +43,9 @@
     -fx-background-radius: 10px;
 }
 
-.info {
-    -fx-text-fill: -fx-font-color;
-    -fx-font-family: -fx-font-family;
-    -fx-font-size: 20px;
-}
-
 .img_symbol {
-    -fx-border-width: 0 0 1px 0; /* Solo el borde superior tiene 1px de ancho */
-    -fx-border-color: rgb(255, 255, 255); /* Color del borde */
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: rgb(255, 255, 255);
     -fx-border-style: solid;
 }
 
@@ -63,19 +61,116 @@
 }
 
 .name_container {
-    -fx-border-width: 1px; /* Solo el borde superior tiene 1px de ancho */
-    -fx-border-color: rgb(255, 255, 255); /* Color del borde */
-    -fx-border-style: solid; /* Estilo del borde */
+    -fx-border-width: 1px;
+    -fx-border-color: -fx-font-color;
+    -fx-border-style: solid;
 }
 
 .triangle {
-    -fx-background-image: url("../color_group/Triangle.png");
     -fx-background-size: cover;
     -fx-background-repeat: no-repeat;
     -fx-background-position: center;
 }
 
-.atomic_mass {
+
+.atomic_num, .sym, .nam, .atom_mass {
     -fx-text-fill: -fx-font-color;
-    -fx-font-size: 18px;
+    -fx-font-family: -fx-font-family;
+
+}
+
+.atomic_num {
+    -fx-font-size: 20px;
+}
+
+.sym {
+    -fx-font-size: 90px;
+}
+
+.nam{
+    -fx-font-size: 30px;
+    -fx-background-color: transparent;
+}
+
+.atom_mass {
+    -fx-font-size: 20px;
+}
+
+
+.properties_container, .elec_container, .note_container {
+    -fx-background-color: -fx-properties_color;
+    -fx-border-color: -fx-properties_color;
+    -fx-background-radius: 0 10 10 0;
+    -fx-border-radius: 0 10 10 0;
+    -fx-border-width: 2px;
+}
+
+.elec_container {
+    -fx-background-color: -fx-elec_color;
+    -fx-border-color: -fx-elec_color;
+}
+
+.note_container {
+    -fx-background-color: -fx-note_color;
+    -fx-border-color: -fx-note_color;
+}
+
+.properties_label {
+    -fx-text-fill: -fx-font-color;
+    -fx-font-family: -fx-font-family;
+    -fx-font-weight: bold;
+}
+
+.properties_icon, .elec_icon, .note_icon, .btn_icon {
+    -fx-background-image: url("../icons/Properties_Icon.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.elec_icon {
+    -fx-background-image: url("../icons/App_Icon.png");
+}
+
+.note_icon {
+    -fx-background-image: url("../icons/Note_Icon.png");
+}
+
+.btn_icon {
+    -fx-background-image: url("../icons/Back_Icon.png");
+}
+
+.yanose {
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: -fx-font-color;
+}
+
+.info {
+    -fx-text-fill: -fx-font-color;
+    -fx-font-family: -fx-font-family;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.auto_info {
+    -fx-text-fill: -fx-font-color;
+    -fx-font-family: -fx-font-family;
+    -fx-font-size: 14px;
+}
+
+.custom-button {
+    -fx-background-color: transparent; /* Color de fondo */
+    -fx-text-fill: -fx-font-color; /* Color del texto */
+    -fx-font-size: 13px; /* Tamaño de la fuente */
+    -fx-font-weight: bold; /* Texto en negrita */
+    -fx-border-radius: 5px; /* Bordes redondeados */
+    -fx-background-radius: 5px; /* Bordes redondeados para el fondo */
+    -fx-padding: 10px 20px; /* Espaciado interno */
+    -fx-border-color: -fx-font-color; /* Color del borde */
+    -fx-border-width: 2px; /* Ancho del borde */
+    -fx-cursor: hand; /* Cambiar el cursor al pasar el mouse */
+}
+
+.custom-button:hover {
+    -fx-background-color: -fx-font-color_blur; /* Cambiar color de fondo al pasar el mouse */
 }

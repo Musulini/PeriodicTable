@@ -16,176 +16,39 @@
 
 <AnchorPane fx:id="mainContainer" maxHeight="920.0" maxWidth="1516.0" minHeight="920.0" minWidth="1516.0" onKeyPressed="#escPressed" prefHeight="920.0" prefWidth="1516.0" styleClass="window" stylesheets="@css/Information_View.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.periodictable.controller.ElementViewController">
     <children>
-          <GridPane prefHeight="875.0" prefWidth="714.0" stylesheets="@css/Information_View.css">
-              <columnConstraints>
-                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-              </columnConstraints>
-              <rowConstraints>
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-              </rowConstraints>
-              <children>
-                  <Label styleClass="info" text="Grupo" GridPane.rowIndex="2">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="groupLabel" GridPane.columnIndex="1" GridPane.rowIndex="2">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Periodo" GridPane.rowIndex="3">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="periodLabel" GridPane.columnIndex="1" GridPane.rowIndex="3">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Estado de Agregación" GridPane.rowIndex="4">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="aggregationStateLabel" GridPane.columnIndex="1" GridPane.rowIndex="4">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Densidad" GridPane.rowIndex="5">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="densityLabel" GridPane.columnIndex="1" GridPane.rowIndex="5">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Punto de Fusión" GridPane.rowIndex="6">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="fusionPointLabel" GridPane.columnIndex="1" GridPane.rowIndex="6">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Punto de Ebullición" GridPane.rowIndex="7">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="boillingPointLabel" GridPane.columnIndex="1" GridPane.rowIndex="7">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Electronegatividad" GridPane.rowIndex="9">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="electroNegativityLabel" GridPane.columnIndex="1" GridPane.rowIndex="9">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Valencia" GridPane.rowIndex="10">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="valencyLabel" GridPane.columnIndex="1" GridPane.rowIndex="10">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Radio Atomico" GridPane.rowIndex="11">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="atomicRadiusLabel" GridPane.columnIndex="1" GridPane.rowIndex="11">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Descubridor" GridPane.rowIndex="12">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="discovererLabel" GridPane.columnIndex="1" GridPane.rowIndex="12">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label styleClass="info" stylesheets="@css/Information_View.css" text="Año de Descubrimiento" GridPane.rowIndex="13">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-                  <Label fx:id="discoveringYearLabel" GridPane.columnIndex="1" GridPane.rowIndex="13">
-                      <font>
-                          <Font size="20.0" />
-                      </font>
-                  </Label>
-              </children>
-              <padding>
-                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-              </padding>
-          </GridPane>
         <HBox alignment="CENTER" layoutX="18.0" layoutY="21.0" maxHeight="877.0" maxWidth="1478.0" minHeight="877.0" minWidth="1478.0" prefHeight="877.0" prefWidth="1478.0" styleClass="principal" stylesheets="@css/Information_View.css">
             <children>
                 <VBox alignment="CENTER" maxHeight="877.0" maxWidth="739.0" minHeight="877.0" minWidth="739.0" prefHeight="877.0" prefWidth="739.0" spacing="5.0" styleClass="left_container" stylesheets="@css/Information_View.css">
                     <children>
                         <Pane maxHeight="700.0" maxWidth="689.0" minHeight="700.0" minWidth="689.0" prefHeight="700.0" prefWidth="689.0" styleClass="hbox_img" stylesheets="@css/Information_View.css">
                             <children>
-                                <HBox alignment="CENTER" layoutX="25.0" layoutY="14.0" maxHeight="450.0" maxWidth="700.0" minHeight="450.0" minWidth="700.0" prefHeight="450.0" prefWidth="700.0" spacing="30.0" styleClass="img_symbol" stylesheets="@css/Information_View.css">
+                                <HBox alignment="CENTER" maxHeight="450.0" maxWidth="689.0" minHeight="450.0" minWidth="689.0" prefHeight="450.0" prefWidth="689.0" spacing="50.0" styleClass="img_symbol" stylesheets="@css/Information_View.css">
                                     <children>
-                                        <ImageView fx:id="elementImage" fitHeight="300.0" fitWidth="300.0" preserveRatio="false" styleClass="img" />
-                                        <Pane fx:id="nameContainer" maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" styleClass="name_container">
+                                        <ImageView fx:id="elementImage" fitHeight="250.0" fitWidth="250.0" preserveRatio="false" styleClass="img" />
+                                        <Pane fx:id="nameContainer" maxHeight="250.0" maxWidth="250.0" minHeight="250.0" minWidth="250.0" prefHeight="250.0" prefWidth="250.0" styleClass="name_container">
                                             <children>
-                                                <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="300.0" maxWidth="300.0" minHeight="300.0" minWidth="300.0" prefHeight="300.0" prefWidth="300.0" styleClass="name" stylesheets="@css/Information_View.css" textAlignment="CENTER">
-                                                    <font>
-                                                        <Font name="Roboto Mono Italic" size="52.0" />
-                                                    </font>
-                                                </Label>
-                                                <Label fx:id="symbolLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="153.0" maxHeight="300.0" maxWidth="300.0" minHeight="60.0" minWidth="300.0" prefHeight="60.0" prefWidth="300.0" styleClass="name" stylesheets="@css/Information_View.css" textAlignment="CENTER">
-                                                    <font>
-                                                        <Font name="Roboto Mono Italic" size="52.0" />
-                                                    </font>
-                                                </Label>
-                                                <Label fx:id="atomicNumberLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="18.0" layoutY="20.0" maxHeight="30.0" maxWidth="30.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="30.0" textAlignment="CENTER">
-                                                    <font>
-                                                        <Font size="20.0" />
-                                                    </font>
-                                                </Label>
-                                                <Pane fx:id="triangleElement" layoutX="238.0" layoutY="238.0" maxHeight="60.0" maxWidth="60.0" minHeight="60.0" minWidth="60.0" prefHeight="60.0" prefWidth="60.0" styleClass="triangle">
+                                                <Pane fx:id="triangleElement" layoutX="199.0" layoutY="200.0" maxHeight="45.0" maxWidth="45.0" minHeight="45.0" minWidth="45.0" prefHeight="45.0" prefWidth="45.0" styleClass="triangle">
                                                     <stylesheets>
                                                         <URL value="@css/Information_View.css" />
                                                         <URL value="@css/Style.css" />
                                                     </stylesheets>
                                                 </Pane>
-                                                <Label fx:id="atomicMassLabel" alignment="CENTER" layoutY="216.0" prefHeight="30.0" prefWidth="300.0" styleClass="atomic_mass" stylesheets="@css/Information_View.css">
+                                                <Label fx:id="atomicNumberLabel" contentDisplay="CENTER" layoutX="19.0" layoutY="14.0" maxHeight="30.0" maxWidth="231.0" minHeight="30.0" minWidth="30.0" prefHeight="30.0" prefWidth="231.0" styleClass="atomic_num" stylesheets="@css/Information_View.css" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font size="30.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="symbolLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="44.0" maxHeight="300.0" maxWidth="300.0" minHeight="60.0" minWidth="250.0" prefHeight="127.0" prefWidth="250.0" styleClass="sym" stylesheets="@css/Information_View.css" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font name="Roboto Mono Italic" size="52.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="nameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="165.0" maxHeight="300.0" maxWidth="300.0" minHeight="40.0" minWidth="130.0" prefHeight="40.0" prefWidth="249.0" styleClass="nam" stylesheets="@css/Information_View.css" textAlignment="CENTER">
+                                                    <font>
+                                                        <Font name="Roboto Mono Italic" size="52.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="atomicMassLabel" alignment="CENTER" layoutY="207.0" prefHeight="30.0" prefWidth="251.0" styleClass="atom_mass" stylesheets="@css/Information_View.css">
                                                     <font>
                                                         <Font size="20.0" />
                                                     </font>
@@ -198,25 +61,75 @@
                                         </Pane>
                                     </children>
                                 </HBox>
-                                <Pane layoutY="465.0" prefHeight="235.0" prefWidth="758.0">
+                                <Pane layoutY="449.0" prefHeight="251.0" prefWidth="689.0">
                                     <children>
-                                        <Label layoutX="25.0" layoutY="14.0" prefHeight="30.0" prefWidth="241.0" styleClass="info" stylesheets="@css/Information_View.css" text="Configuración Electronica:">
-                                            <font>
-                                                <Font size="20.0" />
-                                            </font>
-                                        </Label>
-                                        <Label fx:id="electronConfigLabel" contentDisplay="CENTER" layoutX="25.0" layoutY="87.0" prefHeight="30.0" prefWidth="717.0">
-                                            <font>
-                                                <Font size="20.0" />
-                                            </font>
-                                        </Label>
+                              <Pane layoutY="14.0" prefHeight="40.0" prefWidth="170.0" styleClass="elec_container" stylesheets="@css/Information_View.css">
+                                 <children>
+                                    <Label layoutX="53.0" layoutY="11.0" styleClass="properties_label" stylesheets="@css/Information_View.css" text="Capa Electrónica" />
+                                    <Pane layoutX="14.0" layoutY="5.0" prefHeight="31.0" prefWidth="31.0" styleClass="elec_icon" stylesheets="@css/Information_View.css" />
+                                 </children>
+                              </Pane>
+                              <GridPane hgap="5.0" layoutX="49.0" layoutY="66.0" maxWidth="640.0" minWidth="640.0" prefHeight="91.0" prefWidth="640.0" vgap="5.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="640.0" minWidth="640.0" prefWidth="640.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css">
+                                       <children>
+                                                    <Label layoutY="-1.0" prefHeight="30.0" prefWidth="241.0" styleClass="info" stylesheets="@css/Information_View.css" text="Configuración Electronica:">
+                                                        <font>
+                                                            <Font size="20.0" />
+                                                        </font>
+                                                    </Label>
+                                                    <Label fx:id="electronConfigLabel" contentDisplay="CENTER" layoutY="21.0" prefHeight="30.0" prefWidth="370.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="huhuhuhuhuhu">
+                                                        <font>
+                                                            <Font size="20.0" />
+                                                        </font>
+                                                    </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="1">
+                                       <children>
+                                                <Label styleClass="info" stylesheets="@css/Information_View.css" text="Electronegatividad:">
+                                                    <font>
+                                                        <Font size="20.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="electroNegativityLabel" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="jsjsjsjsjjsjsjsjs">
+                                                    <font>
+                                                        <Font size="20.0" />
+                                                    </font>
+                                                </Label>
+                                       </children>
+                                    </Pane>
+                                    <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="2">
+                                       <children>
+                                                <Label layoutY="4.0" styleClass="info" stylesheets="@css/Information_View.css" text="Radio Atomico:">
+                                                    <font>
+                                                        <Font size="20.0" />
+                                                    </font>
+                                                </Label>
+                                                <Label fx:id="atomicRadiusLabel" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="jjjjjjjjjjjjjjjjjjjjjjjjjjj">
+                                                    <font>
+                                                        <Font size="20.0" />
+                                                    </font>
+                                                </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </GridPane>
                                     </children>
                                 </Pane>
                             </children>
                         </Pane>
-                        <Pane maxHeight="134.0" maxWidth="778.0" minHeight="134.0" minWidth="778.0" prefHeight="134.0" prefWidth="778.0">
+                        <Pane maxHeight="134.0" maxWidth="689.0" minHeight="134.0" minWidth="689.0" prefHeight="134.0" prefWidth="689.0">
                             <children>
-                                <Button layoutX="26.0" layoutY="47.0" mnemonicParsing="false" onAction="#clickedButton" prefHeight="40.0" prefWidth="117.0" text="Regresar" />
+                                <Button alignment="CENTER" contentDisplay="CENTER" layoutY="45.0" mnemonicParsing="false" onAction="#clickedButton" prefHeight="44.0" prefWidth="110.0" styleClass="custom-button" stylesheets="@css/Information_View.css" text="Regresar" />
                             </children>
                         </Pane>
                     </children>
@@ -224,11 +137,181 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                     </padding>
                 </VBox>
-            <VBox alignment="CENTER" maxHeight="877.0" maxWidth="739.0" minHeight="877.0" minWidth="739.0" prefHeight="877.0" prefWidth="739.0" styleClass="right_container" stylesheets="@css/Information_View.css">
+            <VBox alignment="CENTER" maxHeight="877.0" maxWidth="739.0" minHeight="877.0" minWidth="739.0" prefHeight="877.0" prefWidth="739.0" spacing="5.0" styleClass="right_container" stylesheets="@css/Information_View.css">
                <children>
-                  <Pane maxHeight="702.0" maxWidth="650.0" minHeight="692.0" minWidth="650.0" prefHeight="702.0" prefWidth="650.0" styleClass="hbox_img" stylesheets="@css/Information_View.css" />
-                  <Pane maxHeight="134.0" minHeight="134.0" prefHeight="134.0" prefWidth="778.0" />
+                  <Pane maxHeight="700.0" maxWidth="689.0" minHeight="700.0" minWidth="689.0" prefHeight="700.0" prefWidth="689.0" styleClass="hbox_img" stylesheets="@css/Information_View.css">
+                     <children>
+                        <Pane layoutY="38.0" prefHeight="40.0" prefWidth="149.0" styleClass="properties_container" stylesheets="@css/Information_View.css">
+                           <children>
+                              <Label layoutX="53.0" layoutY="11.0" styleClass="properties_label" stylesheets="@css/Information_View.css" text="Propiedades" />
+                              <Pane layoutX="14.0" layoutY="5.0" prefHeight="31.0" prefWidth="31.0" styleClass="properties_icon" stylesheets="@css/Information_View.css" />
+                           </children>
+                        </Pane>
+                        <GridPane hgap="5.0" layoutX="49.0" layoutY="91.0" maxWidth="640.0" minWidth="640.0" prefHeight="91.0" prefWidth="640.0" vgap="5.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="640.0" minWidth="640.0" prefWidth="640.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css">
+                                 <children>
+                                          <Label alignment="CENTER" layoutY="-1.0" styleClass="info" stylesheets="@css/Information_View.css" text="Grupo:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label fx:id="groupLabel" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="referencia">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="1">
+                                 <children>
+                                          <Label layoutY="4.0" styleClass="info" stylesheets="@css/Information_View.css" text="Periodo:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label fx:id="periodLabel" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="referencia2">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="2">
+                                 <children>
+                                          <Label fx:id="valencyLabel" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="hhhhhhhhhhhhhhhhhhhhh">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label layoutY="-2.0" styleClass="info" stylesheets="@css/Information_View.css" text="Valencia:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="3">
+                                 <children>
+                                          <Label layoutX="-1.0" layoutY="4.0" styleClass="info" stylesheets="@css/Information_View.css" text="Densidad:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label fx:id="densityLabel" layoutX="-1.0" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="mmimimimimi">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="4">
+                                 <children>
+                                          <Label layoutY="4.0" styleClass="info" stylesheets="@css/Information_View.css" text="Punto de Fusión:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label fx:id="fusionPointLabel" layoutX="-1.0" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="5">
+                                 <children>
+                                          <Label styleClass="info" stylesheets="@css/Information_View.css" text="Punto de Ebullición:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label fx:id="boillingPointLabel" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="aaaaaaaaaaaaaaaaaaaaaaa">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="6">
+                                 <children>
+                                          <Label styleClass="info" stylesheets="@css/Information_View.css" text="Estado de Agregación:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label fx:id="aggregationStateLabel" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="referencia3">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </GridPane>
+                        <Pane layoutY="492.0" prefHeight="40.0" prefWidth="149.0" styleClass="note_container" stylesheets="@css/Information_View.css">
+                           <children>
+                              <Label layoutX="53.0" layoutY="11.0" styleClass="properties_label" stylesheets="@css/Information_View.css" text="Nota" />
+                              <Pane layoutX="14.0" layoutY="5.0" prefHeight="31.0" prefWidth="31.0" styleClass="note_icon" stylesheets="@css/Information_View.css" />
+                           </children>
+                        </Pane>
+                        <GridPane hgap="5.0" layoutX="49.0" layoutY="549.0" maxWidth="640.0" minWidth="640.0" prefHeight="91.0" prefWidth="640.0" vgap="5.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="640.0" minWidth="640.0" prefWidth="640.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="50.0" minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css">
+                                 <children>
+                                          <Label layoutX="1.0" styleClass="info" stylesheets="@css/Information_View.css" text="Descubridor:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label fx:id="discovererLabel" layoutX="-1.0" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="ssssssssssssss">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                              <Pane maxHeight="50.0" maxWidth="640.0" minHeight="50.0" minWidth="640.0" prefHeight="50.0" prefWidth="640.0" styleClass="yanose" stylesheets="@css/Information_View.css" GridPane.rowIndex="1">
+                                 <children>
+                                          <Label styleClass="info" stylesheets="@css/Information_View.css" text="Año de Descubrimiento:">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                          <Label fx:id="discoveringYearLabel" layoutY="26.0" styleClass="auto_info" stylesheets="@css/Information_View.css" text="kkkkkkkkkk">
+                                              <font>
+                                                  <Font size="20.0" />
+                                              </font>
+                                          </Label>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </GridPane>
+                     </children></Pane>
+                  <Pane maxHeight="134.0" maxWidth="689.0" minHeight="134.0" minWidth="689.0" prefHeight="134.0" prefWidth="689.0" />
                </children>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
             </VBox>
             </children>
         </HBox>
